@@ -1,0 +1,93 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+<style name="Button" parent="Theme.AppCompat.Light.DarkActionBar">
+<!-- Customize your theme here. -->
+<item name="android:layout_width">0dp</item>
+<item name="android:layout_height">wrap_content</item>
+<item name="android:layout_marginLeft">8dp</item>
+<item name="android:layout_marginRight">8dp</item>
+<item name="android:textSize">14sp</item>
+<item name="android:background">@drawable/rounded_button</item>
+</style>
+<style name="ButtonClear" parent="Theme.AppCompat.Light.DarkActionBar">
+<!-- Customize your theme here. -->
+<item name="android:layout_width">0dp</item>
+<item name="android:layout_height">wrap_content</item>
+<item name="android:layout_marginLeft">8dp</item>
+<item name="android:layout_marginRight">8dp</item>
+<item name="android:textSize">14sp</item>
+<item name="android:background">@drawable/rounded_button_clear</item>
+</style>
+<style name="ButtonEquals" parent="Theme.AppCompat.Light.DarkActionBar">
+<!-- Customize your theme here. -->
+<item name="android:layout_width">0dp</item>
+<item name="android:layout_height">wrap_content</item>
+<item name="android:layout_marginLeft">8dp</item>
+<item name="android:layout_marginRight">8dp</item>
+<item name="android:textSize">14sp</item>
+<item name="android:background">@drawable/rounded_button_equals</item>
+</style>
+<style name="textView" parent="Theme.AppCompat.Light.DarkActionBar">
+<!-- Customize your theme here. -->
+<item name="android:layout_width">0dp</item>
+<item name="android:layout_height">48dp</item>
+<item name="android:gravity">right|center_vertical</item>
+<item name="android:paddingRight">16dp</item>
+<item name="android:textSize">24sp</item>
+<item name="android:background">#FFF1C2</item>
+</style>
+
+    <style name="AdditionalLandButton" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@drawable/rounded_additional_land_buttons</item>
+    </style>
+    <style name="ButtonLand" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@drawable/rounded_button</item>
+    </style>
+    <style name="ButtonClearLand" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@drawable/rounded_button_clear</item>
+    </style>
+    <style name="ButtonEqualsLand" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@drawable/rounded_button_equals</item>
+    </style>
+    <style name="textViewLand" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:gravity">right|center_vertical</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:background">#FFF1C2</item>
+    </style>
+
+</resources>
